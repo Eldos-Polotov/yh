@@ -1,0 +1,229 @@
+body{
+    background-image: url(img/fon2.png);
+    background-size: cover;
+}
+.earth{
+    position: absolute;
+    top: 40px;
+    right: 550px;
+    animation-name:earth1 ;/**/
+    animation-duration: 40s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease;
+}
+@keyframes earth1{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(125deg);
+
+    }
+    100%{
+        transform: rotate(180deg);
+
+    }
+}
+.yellow{
+    position: absolute;
+    top:100px;
+    right:100px;
+    animation-name:yellow1 ;/**/
+    animation-duration: 20s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease;
+}
+@keyframes yellow1{
+    0%{
+        transform: translate(0px, 0px);
+    }
+        
+            
+        
+        25%{
+            transform: translate(-25px,-25px );
+        }
+        50%{
+            transform: translate(30px, 20px);
+        }
+        75%{
+            transform: translate(-75px, -20px);
+    
+        }
+        100%{
+            transform: translate(170px, 105px);
+    
+        };
+}
+    
+
+    
+    
+    
+
+
+    
+
+
+
+.sun{
+    position: absolute;
+    top:100px;
+    left:0px;
+    animation-name:sun1 ;
+    animation-duration: 15s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: ease;
+
+
+
+}
+@keyframes sun1{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(45deg);
+        }
+        50%{
+            transform: rotate(90deg);
+        }
+        75%{
+            transform: rotate(125deg);
+    
+        }
+        100%{
+            transform: rotate(180deg);
+    
+        }
+}
+.moon{
+    position: fixed;
+    bottom: -10px;
+    left:0;
+    width:1000px;
+
+}
+.astro{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    animation-name:astr1 ;
+    animation-duration: 8s;
+    animation-iteration-count:1 ;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+}
+@keyframes astr1{
+    0%{
+       bottom: 40px;    
+       left: 0px;                     
+    }
+    20%{
+        bottom: 70px;
+        left: 250px;
+
+        
+    }
+    40%{
+        bottom: 40px;
+        left: 450px;
+    }
+    60%{
+        bottom: 70px;
+        left: 740px;
+        
+    }
+    80%{
+        bottom:40px ;
+        left: 950px;
+
+    }
+    100%{
+        bottom: 70px;
+        left: 1500px;
+    }
+}
+.meteor{
+    position: absolute;
+    top:0px;
+    left:50px;
+    animation-name: meta1;
+    animation-duration: 10s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+@keyframes meta1{
+    0%{
+        top: 0px;
+        left: 20px;
+    }
+    25%{
+        top: 150px;
+        left: 250px;
+    }
+    50%{
+        top: 280px;
+        left: 380px;
+    }
+    75%{
+        top: 370px;
+        left: 480px; ;
+    }
+    100%{
+        top: 75%;
+        left: 70%;
+    }
+
+    
+}
+.air1{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    animation-name: air;
+    animation-duration: 15s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+
+}
+@keyframes air{
+    0%{
+        bottom: 40px;
+        right: 50px;
+        transform: rotate(-20deg);
+
+    }
+    20%{
+        bottom: 80px;
+        right: 240px;
+        transform: rotate(-30deg);
+    }
+    40%{
+        bottom: 150px;
+        right:  480px;
+        transform: rotate(-40deg);
+    }
+    60%{
+        bottom:  370px;
+        right: 480px; 
+        transform: rotate(-50deg);
+    }
+    100%{
+        bottom: 780px;
+        right: 1780px;
+        transform: rotate(-60deg);
+    }
+}
+    
